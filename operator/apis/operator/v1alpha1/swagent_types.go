@@ -49,7 +49,7 @@ type SwAgentSpec struct {
 	OptionalReporterPlugins []string `json:"optionalReporterPlugins,omitempty"`
 }
 
-// Java defines Java agent special configs.
+// JavaSidecar defines Java agent special configs.
 type JavaSidecar struct {
 	// Name is the name for initContainer.
 	// +optional
